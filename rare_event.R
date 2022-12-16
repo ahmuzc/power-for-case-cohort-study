@@ -1,6 +1,5 @@
 ##Cai and Zeng (2004)
-##power calculation for case-cohort study when
-##the event is rare
+##power calculation for case-cohort study when the event is rare
 ccpw <- function(alpha=0.95,hr,p1,N,pfail,q){
   #hr assumpted hazard ratio
   theta <- log(hr)
